@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #6d712e;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+
+main {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background: #6d712e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Estilos do botão */
+.menu-btn {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 10px;
+  margin-left: 1%;
+  border-radius: 5px;
+}
+
+/* Estilos da navegação menu */
+nav {
+  display: none;
+  background: #f8f5f5;
+  padding: 10px;
+  text-align: left;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 8px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Estilo para exibir o menu quando ativo */
+.nav-active {
+  display: block;
+  border-radius: 10px;
+}
+.logo {
+  width: 180px;
+}
+
+/* Estilo para o menu de links */
+.menu-links {
+  list-style: none;
+  display: flexbox;
+  width: 35%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-links li {
+  background-color: #007bff;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-links li:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.menu-links a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.1s ease;
+}
+
+.menu-links a:hover {
+  background-color: #0056b3;
+}
