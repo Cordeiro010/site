@@ -1,18 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página em Construção</title>
-    <link rel="stylesheet" href="css/estiloCosnt.css" />
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Tema - Página Inicial</title>
+    <link rel="stylesheet" href="css/estilo.css" />
     <script defer src="js/script.js"></script>
-</head>
-<body>
-    <div class="container">
-        <h1>🚧 Em Construção 🚧</h1>
-        <p>Estamos trabalhando nesta página. Em breve teremos novidades!</p>
-        <p>Volte mais tarde para conferir.</p>
-        <a href="index.html">Voltar para a Página Inicial</a>
-    </div>
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>HTML</h1>
+      <div class="logo">
+        <img src="img/logo_uniube.svg" alt="Logotipo da Uniube" />
+      </div>
+      <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+      <nav id="navMenu">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="links.html">Links</a></li>
+          <li><a href="fotos.html">Fotos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Listas em HTML</h1>
+
+      <h2>Lista Ordenada (passo a passo)</h2>
+      <ol>
+        <li>Abrir o editor de código</li>
+        <li>Criar um arquivo .html</li>
+        <li>Escrever o código</li>
+      </ol>
+
+      <h2>Lista Não Ordenada (tópicos)</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <p><strong>Ex.:</strong></p>
+      <pre><code>
+                &ltbody&gt
+                &lth1&gtListas em HTML&lt/h1&gt
+              
+                &lth2&gtLista Ordenada (passo a passo)&lt/h2&gt
+                &ltol&gt
+                  &ltli&gtAbrir o editor de código&lt/li&gt
+                  &ltli&gtCriar um arquivo .html&lt/li&gt
+                  &ltli&gtEscrever o código&lt/li&gt
+                &lt/ol&gt
+              
+                &lth2&gtLista Não Ordenada (tópicos)&lt/h2&gt
+                &ltul&gt
+                  &ltli&gtHTML&lt/li&gt
+                  &ltli&gtCSS&lt/li&gt
+                  &ltli&gtJavaScript&lt/li&gt
+                &lt/ul&gt
+              &lt/body&gt
+          </code></pre>
+    </main>
+    <footer>
+      <p>Mateus Cordeiro Rocha - RA: 5166672</p>
+      <hr />
+    </footer>
+  </body>
 </html>

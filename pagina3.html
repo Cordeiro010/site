@@ -1,18 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página em Construção</title>
-    <link rel="stylesheet" href="css/estiloCosnt.css" />
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Tema - Página Inicial</title>
+    <link rel="stylesheet" href="css/estilo.css" />
     <script defer src="js/script.js"></script>
-</head>
-<body>
-    <div class="container">
-        <h1>🚧 Em Construção 🚧</h1>
-        <p>Estamos trabalhando nesta página. Em breve teremos novidades!</p>
-        <p>Volte mais tarde para conferir.</p>
-        <a href="index.html">Voltar para a Página Inicial</a>
-    </div>
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>HTML</h1>
+      <div class="logo">
+        <img src="img/logo_uniube.svg" alt="Logotipo da Uniube" />
+      </div>
+      <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+      <nav id="navMenu">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="links.html">Links</a></li>
+          <li><a href="fotos.html">Fotos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Links em HTML</h1>
+      <p><a href="index.htm">Voltar para a página inicial</a></p>
+      <p>
+        <a href="https://www.w3schools.com/html/" target="_blank"
+          >Aprender HTML na W3Schools</a
+        >
+      </p>
+      <p><strong>Ex.:</strong></p>
+      <pre><code>
+        &ltbody&gt
+          &lth1&gtLinks em HTML&lt/h1&gt
+          &ltp&gt&lta href="index.htm"&gtVoltar para a página inicial&lt/a&gt&lt/p&gt
+          &ltp&gt&lta href="https://www.w3schools.com/html/" target="_blank"&gtAprender HTML na W3Schools&lt/a&gt&lt/p&gt
+        &lt/body&gt
+        
+      </code></pre>
+    </main>
+    <footer>
+      <p>Mateus Cordeiro Rocha - RA: 5166672</p>
+      <hr />
+    </footer>
+  </body>
 </html>

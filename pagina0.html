@@ -1,18 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página em Construção</title>
-    <link rel="stylesheet" href="css/estiloCosnt.css" />
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Tema - Página Inicial</title>
+    <link rel="stylesheet" href="css/estilo.css" />
     <script defer src="js/script.js"></script>
-</head>
-<body>
-    <div class="container">
-        <h1>🚧 Em Construção 🚧</h1>
-        <p>Estamos trabalhando nesta página. Em breve teremos novidades!</p>
-        <p>Volte mais tarde para conferir.</p>
-        <a href="index.html">Voltar para a Página Inicial</a>
-    </div>
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>HTML</h1>
+      <div class="logo">
+        <img src="img/logo_uniube.svg" alt="Logotipo da Uniube" />
+      </div>
+      <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+      <nav id="navMenu">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="links.html">Links</a></li>
+          <li><a href="fotos.html">Fotos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Aprendendo HTML</h1>
+      <h2>O que é HTML?</h2>
+      <p>HTML é a linguagem de marcação usada para criar páginas da web.</p>
+      <p>
+        Com HTML, você estrutura seu conteúdo com títulos, textos, imagens e
+        muito mais.
+      </p>
+      <p><strong>Ex.:</strong></p>
+      <pre><code>
+        &ltbody&gt
+        &lth1&gtAprendendo HTML&lt/h1&gt
+        &lth2&gtO que é HTML?&lt/h2&gt
+        &ltp&gtHTML é a linguagem de marcação usada para criar páginas da web.&lt/p&gt
+        &ltp&gtCom HTML, você estrutura seu conteúdo com títulos, textos, imagens e muito mais.&lt/p&gt
+      &lt/body&gt
+      
+      </code></pre>
+    </main>
+    <footer>
+      <p>Mateus Cordeiro Rocha - RA: 5166672</p>
+      <hr />
+    </footer>
+  </body>
 </html>
