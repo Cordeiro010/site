@@ -1,0 +1,22 @@
+User-agent: *
+Disallow: /css/
+Disallow: /js/
+Disallow: /img/
+Disallow: /.git/
+
+Allow: /index.html
+Allow: /contato.html
+Allow: /fotos.html
+Allow: /links.html
+Allow: /pagina0.html
+Allow: /pagina1.html
+Allow: /pagina2.html
+Allow: /pagina3.html
+Allow: /pagina4.html
+Allow: /pagina5.html
+Allow: /pagina6.html
+Allow: /pagina7.html
+Allow: /pagina8.html
+Allow: /pagina9.html
+
+Sitemap: https://cordeiro010.github.io/site/sitemap.xml
